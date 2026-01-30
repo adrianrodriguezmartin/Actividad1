@@ -13,6 +13,8 @@ public class Main {
         System.out.println("Suma: " + calc.sumar(a, b)); 
         System.out.println("Resta: " + calc.restar(a, b));
         // === BLOQUE A (solo Alumno A) === 
+        Saludo s = new Saludo(); 
+        System.out.println(s.saludar("DAW"));
         
         // === BLOQUE B (solo Alumno B) === 
 
